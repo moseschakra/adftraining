@@ -1,0 +1,21 @@
+{
+	"name": "DelimitedCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobTarget",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "target"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
