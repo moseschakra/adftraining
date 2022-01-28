@@ -46,7 +46,7 @@
 						"referenceName": "InputCSV",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": "cars.csv"
+							"filename": "planes.csv"
 						}
 					}
 				],
@@ -55,7 +55,7 @@
 						"referenceName": "AzureSqlTable1",
 						"type": "DatasetReference",
 						"parameters": {
-							"tablename": "cars"
+							"tablename": "planes"
 						}
 					}
 				]
