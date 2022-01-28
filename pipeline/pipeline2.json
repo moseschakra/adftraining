@@ -46,7 +46,10 @@
 						"referenceName": "InputCSV",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": "planes.csv"
+							"filename": {
+								"value": "@pipeline().parameters.filename",
+								"type": "Expression"
+							}
 						}
 					}
 				],
@@ -55,7 +58,10 @@
 						"referenceName": "AzureSqlTable1",
 						"type": "DatasetReference",
 						"parameters": {
-							"tablename": "planes"
+							"tablename": {
+								"value": "@pipeline().parameters.tablename",
+								"type": "Expression"
+							}
 						}
 					}
 				]
