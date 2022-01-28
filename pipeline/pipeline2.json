@@ -44,13 +44,19 @@
 				"inputs": [
 					{
 						"referenceName": "InputCSV",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"filename": "cars.csv"
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "AzureSqlTable1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"tablename": "cars"
+						}
 					}
 				]
 			}
