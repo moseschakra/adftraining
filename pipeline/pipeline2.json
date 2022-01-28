@@ -69,12 +69,10 @@
 		],
 		"parameters": {
 			"filename": {
-				"type": "string",
-				"defaultValue": "planes.csv"
+				"type": "string"
 			},
 			"tablename": {
-				"type": "string",
-				"defaultValue": "planes"
+				"type": "string"
 			}
 		},
 		"annotations": []
